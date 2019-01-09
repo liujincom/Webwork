@@ -1,0 +1,89 @@
+/* 修改浏览器默认样式 */
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, em, button {
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+/* 设置通用样式 */
+body{
+    background: rgb(216, 130, 49);
+    color: rgba(190, 181, 181, 0.808);
+}
+a{
+    text-decoration: none;
+    color:  rgba(190, 181, 181, 0.808);
+}
+
+.wrapper{
+    display: flex;
+    justify-content:space-around;  
+    align-items:center;
+    width: 100%;
+    height: 100px;
+    background: #dd1c3c;
+}
+.wrapper-title{
+    color:  rgba(190, 181, 181, 0.808);
+    font-size: 40px;
+}
+.content{
+    display:flex;
+    margin:24px auto;  
+    padding: 16px; 
+    width:1000px;  
+}
+.github-div{
+    padding-right: 30px;
+}
+.github-name{
+    margin: 16px 0;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.github-link{
+    display:block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px #fff solid;
+    border-radius: 5px;
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+}
+.work-project{
+    display:block;
+    margin-bottom: 16px;
+    margin-right: 49px;
+    padding: 16px;
+    width: 250px;
+    height: 100px;
+    /* line-height: 40px; */
+    /* text-align: center; */
+    border: 1px #fff solid;
+    border-radius: 5px;
+}
+.work-project>a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.work-title{
+    display:  block;
+    width: 100%;
+    height: 80%;
+}
+.work-time{
+    display: block;
+    width: 100%;
+    height: 20%;
+    text-align: right;
+    line-height: 20px;
+    font-size: 12px;
+}
